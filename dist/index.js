@@ -17,6 +17,7 @@ const bai07_1 = require("./bai07");
 const bai08_1 = require("./bai08");
 const bai09_1 = require("./bai09");
 const bai10_1 = require("./bai10");
+const bai11_1 = require("./bai11");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         // Chạy bài 1
@@ -52,6 +53,14 @@ function main() {
         // Chạy bài 10
         console.log("\nBài 10:");
         yield (0, bai10_1.bai10)();
+        // Chạy bài 11 với mảng mẫu
+        console.log("\nBài 11:");
+        // Ví dụ mảng hợp lệ
+        console.log("ví dụ hợp lệ");
+        yield (0, bai11_1.bai11)([1, 2, 3, 4, 5]);
+        // Ví dụ mảng có số âm
+        console.log("ví dụ có số âm");
+        yield (0, bai11_1.bai11)([1, -2, 3, 4]);
     });
 }
 main();

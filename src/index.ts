@@ -8,6 +8,7 @@ import { bai07 } from "./bai07";
 import { bai08 } from "./bai08";
 import { bai09 } from "./bai09";
 import { bai10 } from "./bai10";
+import { bai11 } from "./bai11";
 async function main() {
     // Chạy bài 1
     console.log("Bài 01:");
@@ -51,5 +52,15 @@ async function main() {
     // Chạy bài 10
     console.log("\nBài 10:");
     await bai10();
+
+    // Chạy bài 11 với mảng mẫu
+    console.log("\nBài 11:");
+    // Ví dụ mảng hợp lệ
+    console.log("ví dụ hợp lệ");
+    await bai11([1, 2, 3, 4, 5]);
+
+    // Ví dụ mảng có số âm
+    console.log("ví dụ có số âm");
+    await bai11([1, -2, 3, 4]);
 }
 main();
