@@ -9,13 +9,20 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const bai1_1 = require("./bai1");
+const bai01_1 = require("./bai01");
+const bai02_1 = require("./bai02");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        console.log("Bắt đầu Bài 1.");
+        // Chạy bài 1
+        console.log("Bài 01:");
         console.log("Chờ 2 giây...");
-        yield (0, bai1_1.bai1)();
-        console.log("Kết thúc Bài 1");
+        yield (0, bai01_1.bai01)();
+        console.log("Kết thúc Bài 01.");
+        // Chạy bài 2
+        console.log("\nBài 02:");
+        console.log("Chờ 1 giây...");
+        yield (0, bai02_1.bai02)();
+        console.log("Kết thúc Bài 02.");
     });
 }
 main();
