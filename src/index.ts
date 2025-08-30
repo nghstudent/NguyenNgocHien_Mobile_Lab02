@@ -4,6 +4,7 @@ import { bai03 } from "./bai03";
 import { bai04 } from "./bai04";
 import { bai05 } from "./bai05";
 import { bai06 } from "./bai06";
+import { bai07 } from "./bai07";
 async function main() {
     // Chạy bài 1
     console.log("Bài 01:");
@@ -31,5 +32,9 @@ async function main() {
     // Chạy bài 6
     console.log("\nBài 06:");
     await bai06();
+
+    // Chạy bài 07
+    console.log("\nBài 07:");
+    await bai07();
 }
 main();
