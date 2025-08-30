@@ -12,23 +12,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const bai01_1 = require("./bai01");
 const bai02_1 = require("./bai02");
 const bai03_1 = require("./bai03");
+const bai04_1 = require("./bai04");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         // Chạy bài 1
         console.log("Bài 01:");
         console.log("Chờ 2 giây...");
         yield (0, bai01_1.bai01)();
-        console.log("Kết thúc Bài 01.");
         // Chạy bài 2
         console.log("\nBài 02:");
         console.log("Chờ 1 giây...");
         yield (0, bai02_1.bai02)();
-        console.log("Kết thúc Bài 02.");
         // Chạy bài 3
         console.log("\nBài 03:");
         console.log("Chờ 1 giây...");
         yield (0, bai03_1.bai03)();
-        console.log("Kết thúc Bài 03.");
+        // Chạy bài 4
+        console.log("\nBài 04:");
+        (0, bai04_1.bai04)();
     });
 }
 main();
