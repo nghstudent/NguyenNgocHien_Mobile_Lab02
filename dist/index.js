@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const bai01_1 = require("./bai01");
 const bai02_1 = require("./bai02");
 const bai03_1 = require("./bai03");
-const bai05_1 = require("./bai05");
+const bai06_1 = require("./bai06");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         // Chạy bài 1
@@ -31,8 +31,11 @@ function main() {
         // console.log("\nBài 04:");
         // bai04();
         // Chạy bài 5
-        console.log("\nBài 05:");
-        (0, bai05_1.bai05)();
+        // console.log("\nBài 05:");
+        // bai05();
+        // Chạy bài 6
+        console.log("\nBài 06:");
+        yield (0, bai06_1.bai06)();
     });
 }
 main();

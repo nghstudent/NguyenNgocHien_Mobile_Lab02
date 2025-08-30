@@ -3,6 +3,7 @@ import { bai02 } from "./bai02";
 import { bai03 } from "./bai03";
 import { bai04 } from "./bai04";
 import { bai05 } from "./bai05";
+import { bai06 } from "./bai06";
 async function main() {
     // Chạy bài 1
     console.log("Bài 01:");
@@ -24,7 +25,11 @@ async function main() {
     // bai04();
 
     // Chạy bài 5
-    console.log("\nBài 05:");
-    bai05();
+    // console.log("\nBài 05:");
+    // bai05();
+
+    // Chạy bài 6
+    console.log("\nBài 06:");
+    await bai06();
 }
 main();
