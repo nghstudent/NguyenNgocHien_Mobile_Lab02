@@ -9,30 +9,18 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const bai01_1 = require("./bai01");
-const bai02_1 = require("./bai02");
-const bai03_1 = require("./bai03");
-const bai05_1 = require("./bai05");
-function main() {
-    return __awaiter(this, void 0, void 0, function* () {
-        // Chạy bài 1
-        console.log("Bài 01:");
-        console.log("Chờ 2 giây...");
-        yield (0, bai01_1.bai01)();
-        // Chạy bài 2
-        console.log("\nBài 02:");
-        console.log("Chờ 1 giây...");
-        yield (0, bai02_1.bai02)();
-        // Chạy bài 3
-        console.log("\nBài 03:");
-        console.log("Chờ 1 giây...");
-        yield (0, bai03_1.bai03)();
-        // Chạy bài 4
-        // console.log("\nBài 04:");
-        // bai04();
-        // Chạy bài 5
-        console.log("\nBài 05:");
-        (0, bai05_1.bai05)();
+exports.simulateTask = simulateTask;
+exports.bai05 = bai05;
+function simulateTask(timeout) {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("Task xong");
+        }, timeout);
     });
 }
-main();
+function bai05() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const message = yield simulateTask(4000);
+        console.log(message);
+    });
+}
