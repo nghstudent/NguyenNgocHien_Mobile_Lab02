@@ -26,6 +26,7 @@ import { bai25 } from "./bai25";
 import { bai26 } from "./bai26";
 import { bai27 } from "./bai27";
 import { bai28 } from "./bai28";
+import { bai29 } from "./bai29";
 
 async function main() {
     // Chạy bài 1
@@ -143,5 +144,8 @@ async function main() {
     console.log("\nBài 28:");
     await bai28();
 
+    // Chạy bài 29
+    console.log("\nBài 29:");
+    await bai29();
 }
 main();
