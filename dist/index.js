@@ -21,6 +21,8 @@ const bai11_1 = require("./bai11");
 const bai12_1 = require("./bai12");
 const bai13_1 = require("./bai13");
 const bai14_1 = require("./bai14");
+const bai15_1 = require("./bai15");
+const bai16_1 = require("./bai16");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         // Chạy bài 1
@@ -68,6 +70,12 @@ function main() {
         // Chạy bài 14
         console.log("\nBài 14:");
         yield (0, bai14_1.bai14)();
+        // Chạy bài 15
+        console.log("\nBài 15:");
+        yield (0, bai15_1.bai15)();
+        // Chạy bài 16
+        console.log("\nBài 16:");
+        yield (0, bai16_1.bai16)();
     });
 }
 main();
