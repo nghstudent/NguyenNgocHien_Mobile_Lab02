@@ -23,6 +23,7 @@ import { bai22 } from "./bai22";
 import { bai23 } from "./bai23";
 import { bai24 } from "./bai24";
 import { bai25 } from "./bai25";
+import { bai26 } from "./bai26";
 
 async function main() {
     // Chạy bài 1
@@ -127,6 +128,10 @@ async function main() {
     // Chạy bài 25
     console.log("\nBài 25:");
     await bai25();
-    
+
+    // Chạy bài 26
+    console.log("\nBài 26:");
+    await bai26();
+
 }
 main();
