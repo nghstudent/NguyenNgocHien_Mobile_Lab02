@@ -8,6 +8,8 @@ import { bai07 } from "./bai07";
 import { bai08 } from "./bai08";
 import { bai09 } from "./bai09";
 import { bai10 } from "./bai10";
+import { bai11 } from "./bai11";
+
 async function main() {
     // Chạy bài 1
     console.log("Bài 01:");
@@ -51,6 +53,10 @@ async function main() {
     // Chạy bài 10
     console.log("\nBài 10:");
     await bai10();
+
+    // Chạy bài 11
+    console.log("\nBài 11:");
+    await bai11();
 
 }
 main();

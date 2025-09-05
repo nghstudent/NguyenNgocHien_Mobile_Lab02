@@ -53,14 +53,9 @@ function main() {
         // Chạy bài 10
         console.log("\nBài 10:");
         yield (0, bai10_1.bai10)();
-        // Chạy bài 11 với mảng mẫu
+        // Chạy bài 11
         console.log("\nBài 11:");
-        // Ví dụ mảng hợp lệ
-        console.log("ví dụ hợp lệ");
-        yield (0, bai11_1.bai11)([1, 2, 3, 4, 5]);
-        // Ví dụ mảng có số âm
-        console.log("ví dụ có số âm");
-        yield (0, bai11_1.bai11)([1, -2, 3, 4]);
+        yield (0, bai11_1.bai11)();
     });
 }
 main();
